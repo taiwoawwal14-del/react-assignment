@@ -1,0 +1,98 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f7fb;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* .update {
+  display: none;
+}
+
+.submit {
+  display: block;
+} */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #4f46e5;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #4f46e5;
+  color: white;
+}
+
+thead td {
+  padding: 12px;
+  font-weight: 600;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9fafc;
+}
+
+td button {
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+td button:last-child {
+  background-color: #ef4444;
+}
+
+td button:last-child:hover {
+  background-color: #dc2626;
+}
+.sea{
+    display: flex;
+    justify-content: center;
+}
+.search-button{
+    background-color: green;
+    border: 1px solid black;
+}
